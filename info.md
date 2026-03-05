@@ -1,0 +1,5 @@
+Solo la vieja versión [3.0.4](https://github.com/ironweb10/BQ-Archive/releases/download/Flash-Tools/BQ_Firmware_Flash_Tool-Customer_version.zip) de BQ Firmware FlashTool para Windows y Linux (codigo Python) es completamente inutilizable = se atasca en la advertencia "Cargando", porque no puede descargar los ficheros Python (los servidores BQ están fuera de línea).
+
+La versión BQ FlashTool 5 (solo para Windows 7-8/8.1-10 32 / 64bit) (https://github.com/ironweb10/BQ-Archive/releases/download/Flash-Tools/BQ.Firmware.Flash.Tool.5-Customer.zip) (codigo QT) también devuelve errores de conexión (porque no se puede acceder a devices.bq.com y servicios relacionados), pero al menos aún se puede usar para desbloqueo bootloader/particiones + flasheo/hard-reset, cerrando las advertencias y proporcionando manualmente los paquetes de firmware.
+
+En Windows 8.1 y 10 se sugiere utilizar el modo de compatibilidad con Windows 7 (clic derecho - Propiedades - Compatibilidad) con los ejecutables para instalar y utilizar la herramienta BQ Firmware FlashTool V5. De lo contrario, puede pasar que el programa no se ejecute o que no funcione correctamente.
